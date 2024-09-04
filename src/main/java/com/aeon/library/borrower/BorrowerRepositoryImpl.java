@@ -8,8 +8,8 @@ public class BorrowerRepositoryImpl implements BorrowerRepository {
     private final JdbcTemplate jdbcTemplate;
 
     @Override
-    public int register(String name, String email) {
+    public void register(String name, String email) {
         String sql = "INSERT INTO borrower (name, email) VALUES (?,?)";
-        return jdbcTemplate.update(sql, name, email);
+        jdbcTemplate.update(sql, name, email);
     }
 }
