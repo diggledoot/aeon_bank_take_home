@@ -1,5 +1,6 @@
 package com.aeon.library.borrower.usecase;
 
+import com.aeon.library.LibraryException;
 import com.aeon.library.borrower.BorrowerRepository;
 import lombok.RequiredArgsConstructor;
 
