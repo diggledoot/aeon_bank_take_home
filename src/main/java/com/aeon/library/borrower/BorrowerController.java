@@ -19,7 +19,7 @@ public class BorrowerController {
     public ResponseEntity<?> register(
             @RequestBody RegisterBorrowerRequest registerBorrowerRequest
     ) {
-        // TODO: Validation
+        registerBorrowerRequest.isValidBorrower();
         registerBorrower.execute(registerBorrowerRequest.getName(), registerBorrowerRequest.getEmail());
         return new ResponseEntity<>(HttpStatus.OK);
     }
