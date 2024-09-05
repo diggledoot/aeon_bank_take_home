@@ -1,6 +1,6 @@
-package com.aeon.library.configs;
+package com.aeon.library.config;
 
-import com.aeon.library.borrower.BorrowerRepository;
+import com.aeon.library.borrower.data.BorrowerRepository;
 import com.aeon.library.borrower.usecase.RegisterBorrower;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
-package com.aeon.library.borrower;
+package com.aeon.library.borrower.data;
 
-import com.aeon.library.LibraryException;
+import com.aeon.library.exception.LibraryException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;

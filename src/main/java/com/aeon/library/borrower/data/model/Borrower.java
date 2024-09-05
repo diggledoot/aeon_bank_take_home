@@ -1,4 +1,4 @@
-package com.aeon.library.borrower;
+package com.aeon.library.borrower.data.model;
 
 import lombok.Getter;
 

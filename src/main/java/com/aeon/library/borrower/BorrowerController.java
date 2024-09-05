@@ -1,5 +1,6 @@
 package com.aeon.library.borrower;
 
+import com.aeon.library.borrower.dto.RegisterBorrowerRequest;
 import com.aeon.library.borrower.usecase.RegisterBorrower;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

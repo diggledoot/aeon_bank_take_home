@@ -1,4 +1,4 @@
-package com.aeon.library.configs;
+package com.aeon.library.config;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.beans.factory.annotation.Value;

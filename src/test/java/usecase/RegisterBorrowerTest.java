@@ -1,6 +1,6 @@
 package usecase;
 
-import com.aeon.library.borrower.BorrowerRepository;
+import com.aeon.library.borrower.data.BorrowerRepository;
 import com.aeon.library.borrower.usecase.RegisterBorrower;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

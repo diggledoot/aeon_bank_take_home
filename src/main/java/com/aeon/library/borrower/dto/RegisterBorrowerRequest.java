@@ -1,6 +1,6 @@
-package com.aeon.library.borrower;
+package com.aeon.library.borrower.dto;
 
-import com.aeon.library.LibraryException;
+import com.aeon.library.exception.LibraryException;
 import lombok.Data;
 
 import java.util.regex.Pattern;

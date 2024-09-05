@@ -1,6 +1,6 @@
 package com.aeon.library.borrower.usecase;
 
-import com.aeon.library.borrower.BorrowerRepository;
+import com.aeon.library.borrower.data.BorrowerRepository;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

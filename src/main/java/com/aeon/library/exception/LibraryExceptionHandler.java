@@ -1,4 +1,4 @@
-package com.aeon.library;
+package com.aeon.library.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
