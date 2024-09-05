@@ -1,4 +1,4 @@
-package usecase;
+package usecase.borrower;
 
 import com.aeon.library.borrower.data.BorrowerRepository;
 import com.aeon.library.borrower.usecase.RegisterBorrower;
